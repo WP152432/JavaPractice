@@ -60,7 +60,7 @@ public class Loop {
 				System.out.println("공격력이 감소되었습니다. 현재 공격력 : "+atk);
 				break;
 			case 3:
-				_class_index = new Random().nextInt(6);
+				_class_index = new Random().nextInt(4);
 				System.out.println(_class[_class_index]+"(으)로 설정되었습니다.");
 				break;
 			default:
