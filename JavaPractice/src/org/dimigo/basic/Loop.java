@@ -63,6 +63,8 @@ public class Loop {
 				_class_index = new Random().nextInt(6);
 				System.out.println(_class[_class_index]+"(으)로 설정되었습니다.");
 				break;
+			default:
+				System.out.println("없는 메뉴입니다.");	
 			}
 		}while(choice != 9);
 			
