@@ -27,7 +27,7 @@ public class Loop {
 		// TODO Auto-generated method stub
 		
 		
-		int atk = 0;
+		int atk = 100;
 		int _class_index = 0;
 		String[] _class = {"마법사" , "영주", "기사", "농민"};
 		int choice = 0;
