@@ -21,6 +21,24 @@ public class Book {
 	private int page;
 	private String name;
 	
+	// Constructor;
+	
+	public Book(){
+		System.out.println("기본 생성자");
+	}
+	
+	public Book(String re_author,int re_page,String re_name){
+		author = re_author;
+		page = re_page;
+		name = re_name;
+		
+	}
+	
+	public Book(String re_author,String re_name){
+		author = re_author;
+		name = re_name;
+		
+	}
 	
 	public String getTitle(){
 		return name;

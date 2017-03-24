@@ -23,7 +23,7 @@ public class BookTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Book book = new Book();
+		Book book = new Book("안녕",152,"응");
 		book.setTitle("Rail in Rain is Ruined.");
 		book.setAuthor("Grass,Mith");
 		book.setPage(22131);
@@ -37,6 +37,9 @@ public class BookTest {
 		book2.setAuthor("Grass,hope");
 		book2.setPage(23212);
 		
+		System.out.println(book2.getTitle());
+		System.out.println(book2.getPage());
+		System.out.println(book2.getAuthor());
 	}
 
 }
