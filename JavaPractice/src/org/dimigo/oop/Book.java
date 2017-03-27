@@ -27,10 +27,10 @@ public class Book {
 		System.out.println("기본 생성자");
 	}
 	
-	public Book(String re_author,int re_page,String re_name){
-		author = re_author;
-		page = re_page;
-		name = re_name;
+	public Book(String author,int page,String name){
+		this.author = author;
+		this.page = page;
+		this.name = name;
 		
 	}
 	
@@ -38,6 +38,10 @@ public class Book {
 		author = re_author;
 		name = re_name;
 		
+	}
+	
+	public Book(String title){
+		this(title, "저자 미상");
 	}
 	
 	public String getTitle(){
