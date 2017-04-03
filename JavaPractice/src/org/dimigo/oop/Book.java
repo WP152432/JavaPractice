@@ -41,7 +41,7 @@ public class Book {
 	}
 	
 	public Book(String title){
-		this(title, "저자 미상");
+		this("저자 미상",0,title);
 	}
 	
 	public String getTitle(){
@@ -66,5 +66,10 @@ public class Book {
 	
 	public void setAuthor(String re_author){
 		author = re_author;
+	}
+	
+	
+	public String toString(){
+		return "책 제목:"+name + ", 저자:"+author+", 페이지 수:"+page;
 	}
 }
