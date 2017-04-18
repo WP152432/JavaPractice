@@ -25,7 +25,7 @@ public class IdolGroup {
 				{"유라","혜리","소진","민아"}
 		};
 		
-		for(i=0;i<3;i++){
+		for(i=0;i<groupName.length;i++){
 			System.out.println("<< "+groupName[i]+" >>");
 			for(String name: memberName[i]){
 				System.out.println(name);
