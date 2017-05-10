@@ -31,6 +31,11 @@ public class CarClass {
 		 */
 		
 		// 스태틱 메소드에서 스태틱 필드 호출.
+		static {
+			System.out.println("static block called");
+			company = "현대 자동차";
+		}
+	
 		public static String getCompany() {
 			return company;
 		}
