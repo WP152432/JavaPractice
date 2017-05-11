@@ -34,6 +34,25 @@ public class AnimalTest {
 		System.out.println(t);
 		t.bark();
 		t.hunt();
+		
+		Animal a1 = new Dog("멍멍이");
+		a1.bark();
+		
+		Animal a2 = new Cat("야옹이");
+		a2.bark();
+		
+		Animal a3 = new Tiger("호돌이");
+		a3.bark();
+		
+		Animal animals[] = {a1,a2,a3};
+		for(Animal i:animals){
+			doBark(i);
+		}
+	}
+	
+	private static void doBark(Animal animal){
+		System.out.println(animal);
+		animal.bark();
 	}
 
 }
